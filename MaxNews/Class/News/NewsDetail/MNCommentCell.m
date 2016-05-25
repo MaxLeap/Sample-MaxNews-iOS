@@ -30,14 +30,14 @@
     self.userIcon = [[UIImageView alloc] init];
     
     self.userNameLabel = [[UILabel alloc] init];
-    self.userNameLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15];
+    self.userNameLabel.font = [UIFont systemFontOfSize:15];
     
     self.timeLabel = [[UILabel alloc] init];
-    self.timeLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:11];
+    self.timeLabel.font = [UIFont systemFontOfSize:11];
     self.timeLabel.textColor = UIColorFromRGBA(0, 0, 0, 0.3);
     
     self.contentLabel = [[UILabel alloc] init];
-    self.contentLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:12];
+    self.contentLabel.font = [UIFont systemFontOfSize:12];
     self.contentLabel.textColor = UIColorFromRGBA(0, 0, 0, 0.5);
     self.contentLabel.numberOfLines = 2;
     

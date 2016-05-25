@@ -157,7 +157,6 @@
 		6CC92BCB1CE3376E00461AF6 /* MLHelpCenterThemes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLHelpCenterThemes.bundle; sourceTree = "<group>"; };
 		6CE476D51CE48D88004BECE4 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		6CE476D61CE48D88004BECE4 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		6CE6C1E61CEDBD8400900AEC /* PingFang.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PingFang.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,7 +270,6 @@
 		6CC92B311CE2D6A700461AF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CE6C1E61CEDBD8400900AEC /* PingFang.ttc */,
 				6CC92B3D1CE2D6A700461AF6 /* Assets.xcassets */,
 				6CC92B3F1CE2D6A700461AF6 /* LaunchScreen.storyboard */,
 				6CC92B421CE2D6A700461AF6 /* Info.plist */,

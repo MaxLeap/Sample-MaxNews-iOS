@@ -32,7 +32,7 @@
     
     self.newsTitleLabel = [[UILabel alloc] init];
     self.newsTitleLabel.numberOfLines = 3;
-    self.newsTitleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:13];
+    self.newsTitleLabel.font = [UIFont systemFontOfSize:13];
     
     self.whereFromLabel = [[UILabel alloc] init];
     self.whereFromLabel.font = [UIFont systemFontOfSize:10];
@@ -45,7 +45,7 @@
     
     self.commentLabel = [[UILabel alloc] init];
     self.commentLabel.textAlignment = NSTextAlignmentRight;
-    self.commentLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:11];
+    self.commentLabel.font = [UIFont systemFontOfSize:11];
     self.commentLabel.textColor = UIColorFromRGB(0x979797);
     
     [self.contentView addSubview:self.newsImageView];
